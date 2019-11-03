@@ -4,7 +4,7 @@ import java.awt.event.*;
 import java.util.*;
 import java.sql.*;
 
-public class ClassRegistration extends JFrame
+public class ClassSearch extends JFrame
 {	
 	//initializing variables needed
 	private JLabel institution;
@@ -50,7 +50,7 @@ public class ClassRegistration extends JFrame
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";        
     static final String DATABASE_URL = "jdbc:mysql://localhost/courseData";
 	
-	public ClassRegistration() 
+	public ClassSearch() 
 	{
 		super("Class Search");
 		setLayout(null);
